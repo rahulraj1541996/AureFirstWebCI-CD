@@ -13,7 +13,7 @@ namespace MenuItemListing
         [Required]
         public string Name { get; set; }
         [Display(Name ="Free Dilivery")]
-        public bool freeDelivery { get; set; }
+        public bool freeDilivery { get; set; }
         [Required]
         public int Price { get; set; }
         [DataType(DataType.Date)]
